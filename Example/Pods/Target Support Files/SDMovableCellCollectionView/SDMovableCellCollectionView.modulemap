@@ -1,0 +1,6 @@
+framework module SDMovableCellCollectionView {
+  umbrella header "SDMovableCellCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

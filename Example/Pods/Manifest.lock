@@ -1,0 +1,16 @@
+PODS:
+  - SDMovableCellCollectionView (0.1.0)
+
+DEPENDENCIES:
+  - SDMovableCellCollectionView (from `../`)
+
+EXTERNAL SOURCES:
+  SDMovableCellCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDMovableCellCollectionView: a0838913b1652b1626d01be5c3efd5fc269f8796
+
+PODFILE CHECKSUM: 840d656e938b27950d878fe7b638c796494db21f
+
+COCOAPODS: 1.10.1

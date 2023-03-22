@@ -1,0 +1,6 @@
+framework module Pods_SDMovableCellCollectionView_Tests {
+  umbrella header "Pods-SDMovableCellCollectionView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
