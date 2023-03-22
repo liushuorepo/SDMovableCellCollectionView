@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SDMovableCellCollectionView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SDMovableCellCollectionView.'
+  s.summary          = 'This is a movable collectionView. You can sort data by dragging and dropping the cell.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  This is a movable collectionView. You can sort data by dragging and dropping the cell. Thank you!
                        DESC
 
-  s.homepage         = 'https://github.com/liushuo/SDMovableCellCollectionView'
+  s.homepage         = 'https://github.com/liushuorepo/SDMovableCellCollectionView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liushuo' => 'liushuo@shanda.com' }
+  s.author           = { 'liushuo' => '13124832031@163.com' }
   s.source           = { :git => 'https://github.com/liushuo/SDMovableCellCollectionView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,11 +32,18 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SDMovableCellCollectionView/Classes/**/*'
   
+  s.user_target_xcconfig = {
+      'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
+  s.pod_target_xcconfig = {
+      'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
   # s.resource_bundles = {
   #   'SDMovableCellCollectionView' => ['SDMovableCellCollectionView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
